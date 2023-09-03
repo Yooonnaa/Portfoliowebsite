@@ -4,11 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>My Website</title>
 </head>
 <body>
-<h1>hi, <span class="name">jakob</span> here.</h1>
+    <section id="home">
+        <h1 class="introduction" id="introduction">hi, <span class="name" id="name">jakob</span> here.</h1>
+        <h2 class="catchphrase" id="catchphrase">I create stuff sometimes.</h2>
+        <p class="description" id="description">I'm a software engineer based in Cologne. I have great interest in 
+            full-stack development, artificial intelligence, human-computer 
+            interactions, and everything in between.</p>
 
 
+        <button class="say hi"><i class="far fa-envelope "></i>Say hi!</button>
+
+    <nav class="navigation">
+        <ul>
+            <li><a href="#home">/home</a></li>
+            <li><a href="">/about</a></li>
+            <li><a href="">/experience</a></li>
+        </ul>
+    </nav>
+
+</section>
 </body>
 </html>
