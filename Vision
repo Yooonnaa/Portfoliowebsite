@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <!--Start code of HTML & import of the libraries-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
@@ -8,6 +9,7 @@
     <title>My Website</title>
 </head>
 <body>
+    <!--Introduction to my Website with some Information about me and my Email link-->
     <section id="home">
         <h1 class="introduction" id="introduction">hi, <span class="name" id="name">jakob</span> here.</h1>
     <h2 class="catchphrase" id="catchphrase">I create stuff sometimes.</h2>
@@ -17,7 +19,7 @@
 
 
         <button class="email-button"><i class="far fa-envelope "></i><a href="mailto:jakob@hoeynck.net"></a>Say hi!</a></button>
-
+    <!--This is the Navigation list on the bottom right-->
     <nav class="navigation">
         <ul>
             <li><a href="#home">/home</a></li>
@@ -27,12 +29,14 @@
         </ul>
     </nav>
 </section>
+    <!--Information about me what im doing right now and what technologies i learned-->  
 <section id="about">
     <h1 class="aboutme">/ about me</h1>
         <p class="myjob">I am currently a  <a id="computerscience" class="computerscience">Computer Science</a> Student  at <a href="https://www.iu.de/" class="school" target="_blank">IU
         international university of applied sciences.</a> At the same
         time, I am undertaking a part-time </p>
         <h3 class="mylanguages">Here are some technologies I have been working with:</h3>
+        <!--list about my languages i learned-->
         <ul id="languages" class="fa-ul">
             <li class="listmoving"><span class="fa-li" style="color:#64FFDA"><i class="fas fa-check"></i></span>HTML</li>
             <li class="listmoving"><span class="fa-li" style="color:#64FFDA"><i class="fas fa-check"></i></span>CSS</li>
@@ -42,9 +46,11 @@
         <p class="outsidework">Outside of work, I'm interested in following
         the developments of science. I also play a lot of video games :) </p>
 </section>
+    <!--Information about my experience in Computer Science and my internships-->
 <section id="experience" class="experience">
     <h1 class="experienceh1">/ experience</h1>
 </section>
+    <!--Information about my own creations-->
 <section id="software-creations" class="software-creations">
     <h1 class="software-creationsh1">/ software-creations</h1>
 </section>
