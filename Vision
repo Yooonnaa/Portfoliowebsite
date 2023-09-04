@@ -23,26 +23,30 @@
             <li><a href="#home">/home</a></li>
             <li><a href="#about">/about</a></li>
             <li><a href="#experience">/experience</a></li>
+            <li><a href="#software-creations">/software-creations</a></li>
         </ul>
     </nav>
 </section>
 <section id="about">
-    <h1 class="about me">/ about me</h1>
-        <p class="myjob">I am currently a  Computer Science Student  at <a href="https://www.iu.de/" class="school" target="_blank">IU
+    <h1 class="aboutme">/ about me</h1>
+        <p class="myjob">I am currently a  <a id="computerscience" class="computerscience">Computer Science</a> Student  at <a href="https://www.iu.de/" class="school" target="_blank">IU
         international university of applied sciences.</a> At the same
         time, I am undertaking a part-time </p>
         <h3 class="mylanguages">Here are some technologies I have been working with:</h3>
         <ul id="languages" class="fa-ul">
-            <li><span class="fa-li" style="color:#64FFDA"><i class="fas fa-check"></i></span>HTML</li>
-            <li><span class="fa-li" style="color:#64FFDA"><i class="fas fa-check"></i></span>CSS</li>
-            <li><span class="fa-li" style="color:#64FFDA"><i class="fas fa-check"></i></span>JavaScript</li>
-            <li><span class="fa-li" style="color:#64FFDA"><i class="fas fa-check"></i></span>Python</li>
+            <li class="listmoving"><span class="fa-li" style="color:#64FFDA"><i class="fas fa-check"></i></span>HTML</li>
+            <li class="listmoving"><span class="fa-li" style="color:#64FFDA"><i class="fas fa-check"></i></span>CSS</li>
+            <li class="listmoving"><span class="fa-li" style="color:#64FFDA"><i class="fas fa-check"></i></span>JavaScript</li>
+            <li class="listmoving"><span class="fa-li" style="color:#64FFDA"><i class="fas fa-check"></i></span>Python</li>
         </ul>
         <p class="outsidework">Outside of work, I'm interested in following
         the developments of science. I also play a lot of video games :) </p>
 </section>
-<section id="experience">
-    <h1>/ experience</h1>
+<section id="experience" class="experience">
+    <h1 class="experienceh1">/ experience</h1>
+</section>
+<section id="software-creations" class="software-creations">
+    <h1 class="software-creationsh1">/ software-creations</h1>
 </section>
 </body>
 </html>

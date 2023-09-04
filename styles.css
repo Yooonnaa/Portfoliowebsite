@@ -4,10 +4,36 @@
     scroll-behavior: smooth;
 }
 
+
 h1 {
-    color: CCD6F6;
+    color: #CCD6F6;
     font-size: 80px;
     color:#cfd1d8;
+}
+
+.home {
+    margin-top: 0px;
+}
+
+.introduction {
+    animation: revealText 5s steps(30);
+    margin-left: 300px;
+    margin-top: 500px;
+}
+
+.catchphrase {
+    font-size: 40px;
+    margin-top: -70px;
+    color:#76809D;
+    margin-left: 300px;
+}
+
+.description {
+    margin-top: -15px;
+    line-height: 2.0;
+    color:#76809D;
+    margin-left: 300px;
+    font-size: 20px
 }
 
 p {
@@ -16,45 +42,39 @@ p {
     text-overflow: ellipsis;
 }
 
-.catchphrase {
-    font-size: 30px;
-    margin-top: -65px;
-    color:#76809D;
-}
-
-.description {
-    margin-top: -15px;
-    line-height: 1.7;
-    color:#76809D;
-}
-
 .name {
     color: #64FFDA;
 }
 
 .navigation {
     position: fixed;
-    bottom: 0;
-    right: 40px;
+    bottom: 100px;
+    right: 70px;
     text-align: right;
+    line-height: 1.7;
+    background-color: rgba(100, 100, 100, 0);
 }
 
 .navigation a {
     color: #64FFDA;
     text-decoration: none;
     transition: color 0.3s;
+    background-color: rgba(100, 100, 100, 0);
 }
 
 .navigation ul {
     list-style: none;
+    background-color: rgba(100, 100, 100, 0);
 }
 
 .navigation a:hover {
     color: #76809D;
+    background-color: rgba(100, 100, 100, 0.);
 }
 
 .navigation a:active {
     color: #64FFDA;
+    background-color: rgba(100, 100, 100, 0);
 }
 
 .school {
@@ -71,6 +91,7 @@ button {
     border-radius: 5px;
     border-color: #64FFDA;
     font-size: 20px;
+    margin-left: 300px;
 }
 
 button:hover {
@@ -90,16 +111,64 @@ button i {
 
 .myjob {
     color:#76809D;
+    line-height: 1.5;
 }
 
 .mylanguages {
     color:#76809D;
+    margin-left: 300px;
+    
 }
 
 .fa-ul {
     color:#76809D;
+    margin-left: 300px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.languages {
+    margin-left: 300px;
+    font-size: 20px;
 }
 
 .outsidework {
     color:#76809D;
+    margin-left: 300px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.aboutme {
+    margin-top: 250px;
+    margin-left: 300px;
+    font-size: 40px;
+}
+
+.myjob {
+    margin-left: 300px;
+    font-size: 20px;
+}
+
+.listmoving {
+    margin-left: 300px;
+    background-color: rgba(100, 100, 100, 0);
+}
+
+.computerscience {
+    color:#CCD6F6;
+}
+
+.experience {
+    margin-left: 300px;
+    margin-top: 250px;
+}
+
+.experienceh1 {
+    font-size: 40px;
+}
+
+.software-creationsh1 {
+    font-size: 40px;
+    margin-left: 300px;
 }
