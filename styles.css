@@ -57,6 +57,13 @@ p {
     color: #64FFDA;
 }
 
+.school {
+    color:#64FFDA;
+}
+
+.school:hover{
+    color:#d2d6e2;
+}
 
 button {
     color: #64FFDA;
